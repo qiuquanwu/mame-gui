@@ -2,7 +2,7 @@
 
 一款新的 MAME GUI 前端。
 
-# 下载地址
+# 发行版下载地址（windows 64 位）
 
 ## 天翼网盘
 
@@ -35,7 +35,7 @@ https://www.mamedev.org/
 ## 添加游戏
 
 - 1.下载对应的 rom 放到 /resources/app/roms 或 mame/roms/
-- 2.编辑 /resources/app/src/roms.json 文件 3.
+- 2.编辑 /resources/app/src/roms.json 文件
 
 ```json
 {
