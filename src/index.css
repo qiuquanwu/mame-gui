@@ -1,0 +1,126 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url("./bg.jpeg");
+  background-size: cover;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+*{
+  padding: 0%;
+  margin: 0%;
+}
+div{
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+button{
+  font-size: large;
+  color: white;
+  opacity: 1;
+}
+.header{
+  width: 100vw;
+  height: 10vh;
+  background-color: #99CCFF;
+  padding: 20px;
+  text-align: end;
+}
+.main{
+  width: 100vw;
+  height: 90vh;
+}
+.main .left{
+  float: left;
+  width: 70vw;
+  height: 100%;
+  background-color: bisque;
+  opacity: 0.5;
+}
+.main .right{
+  float: left;
+  width: 30vw;
+  height: 100%;
+  background-color: cadetblue;
+  overflow: auto;
+  padding-top: 20px;
+  opacity: 0.9;
+}
+.rom-li{
+  height: 50px;
+  font-size: x-large;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  line-height: 50px;
+}
+.rom-li:hover{
+  opacity: 0.8;
+  border: 5px solid #9966CC;
+  outline: 5px solid #006699; 
+  color: red;
+  /* transform: scale(1.2); */
+  border-radius: 20px;
+}
+.exit{
+  background-color: cornflowerblue;
+  padding: 10px;
+  line-height: 50px;
+  border: none;
+  border-radius: 5px;
+}
+.exit:hover{
+  opacity: 0.8;
+  outline: 5px solid deeppink; 
+}
+.right::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width : 15px;  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+  }
+  .right::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius   : 10px;
+  background-color: skyblue;
+  background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+  );
+  }
+  .right::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background   : #ededed;
+  border-radius: 10px;
+  }
+  .photo{
+    position: absolute;
+    top:10%;
+    text-align: center;
+    width: 70%;
+    height: 70%;
+  }
+  .photo img{
+    width: 100%;
+  }
+#info{
+    color: white;
+    font-size: large;
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    width: 70%;
+    background-color: brown;
+    height: 5%;
+    line-height: 5vh;
+  }
