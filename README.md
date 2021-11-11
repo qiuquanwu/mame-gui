@@ -37,6 +37,15 @@ https://www.mamedev.org/
 - 1.下载对应的 rom 放到 /resources/app/roms 或 mame/roms/
 - 2.编辑 /resources/app/src/roms.json 文件
 
+## 金手指
+
+- 修改根目录 mame.ini
+- cheatpath ./resources/app/cheat
+  ![](./img/3.png)
+  ![](./img/4.png)
+
+- 游戏按 TAB 呼出菜单，选中作弊选项
+
 ```json
 {
   "key": "kf2k2mp", //游戏rom名称
