@@ -7,10 +7,12 @@ body {
   -moz-user-select:none;
   -ms-user-select:none;
   user-select:none;
+  /* cursor: url('./ail7v-fe3ud-003.ico'), default; */
 }
 *{
   padding: 0%;
   margin: 0%;
+  cursor: url('./ail7v-fe3ud-002.ico'), default;
 }
 div{
   box-sizing: border-box;
@@ -24,9 +26,9 @@ button{
 .header{
   width: 100vw;
   height: 10vh;
-  background-color: #99CCFF;
   padding: 20px;
   text-align: end;
+  border-bottom: 5px solid #FFFFFF;
 }
 .main{
   width: 100vw;
@@ -36,17 +38,14 @@ button{
   float: left;
   width: 70vw;
   height: 100%;
-  background-color: bisque;
-  opacity: 0.5;
 }
 .main .right{
   float: left;
   width: 30vw;
   height: 100%;
-  background-color: cadetblue;
   overflow: auto;
   padding-top: 20px;
-  opacity: 0.9;
+  border-left: 5px solid #FFFFFF;
 }
 .rom-li{
   height: 50px;
@@ -55,14 +54,19 @@ button{
   text-decoration: none;
   list-style: none;
   text-align: center;
-  cursor: pointer;
   line-height: 50px;
 }
 .rom-li:hover{
   opacity: 0.8;
-  border: 5px solid #9966CC;
-  outline: 5px solid #006699; 
-  color: red;
+  border: 5px solid #CC0033;
+  outline: 5px solid #FFCC00; 
+  /* transform: scale(1.2); */
+  border-radius: 20px;
+}
+.select{
+  opacity: 0.8;
+  border: 5px solid #CC0033;
+  outline: 5px solid #FFCC00; 
   /* transform: scale(1.2); */
   border-radius: 20px;
 }
@@ -109,9 +113,11 @@ button{
     text-align: center;
     width: 70%;
     height: 70%;
+    cursor: url('./ail7v-fe3ud-002.ico'), default;
   }
   .photo img{
     width: 100%;
+    cursor: url('./ail7v-fe3ud-002.ico'), default;
   }
 #info{
     color: white;
@@ -120,7 +126,6 @@ button{
     top: 80%;
     text-align: center;
     width: 70%;
-    background-color: brown;
     height: 5%;
     line-height: 5vh;
   }

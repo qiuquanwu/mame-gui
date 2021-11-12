@@ -25,7 +25,6 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 1920,
     height: 1080,
-    frame: false,
     autoHideMenuBar: true,
     fullscreen: true,
     webPreferences: {
@@ -54,6 +53,7 @@ const createWindow = () => {
     process.exec(`mame ${data}`, function (error, stdout, stderr) {
       if (error !== null) {
         console.log('exec error: ' + error);
+        event.sender.send("error", error)
       }
     });
   })

@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
-  "productName": "my-app",
+  "name": "mame-xiaobawang",
+  "productName": "mame-xiaobawang",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
