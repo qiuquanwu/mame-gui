@@ -19,7 +19,7 @@ https://www.mamedev.org/
 
 ## 基础
 
-- 解压运行 my-app.exe
+- 解压运行 MAME_GUI.exe
 - 双击右侧游戏名称运行游戏
 - 上下左右，WSAD, 按键，J K U I
 - 数字键 5 投币，数字键 1 开始
