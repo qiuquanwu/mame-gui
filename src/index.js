@@ -26,7 +26,7 @@ const createWindow = () => {
     width: 1920,
     height: 1080,
     autoHideMenuBar: true,
-    fullscreen: true,
+    fullscreen: false,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false
@@ -63,8 +63,6 @@ const createWindow = () => {
     let roms = JSON.parse(fs.readFileSync(romspath));
 
     event.sender.send("roms", roms)
-    let photos = openFolder("kov3")
-    event.sender.send("photo", { photos, key: "kov3" })
   })
   ipcMain.on("exit", (event) => {
     app.quit()

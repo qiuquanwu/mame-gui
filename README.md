@@ -4,14 +4,11 @@
 
 # 发行版下载地址（windows 64 位）
 
-## 天翼网盘
-
-https://cloud.189.cn/t/faqYVneMBBJb (访问码:3usd)
-
 ## 百度网盘
 
-链接：https://pan.baidu.com/s/1RvLOfJNVyor-A7BbTRV7Dw
-提取码：w6zv
+链接：https://pan.baidu.com/s/1IqKyRYeK3ZtUFZrpZ0piYw
+提取码：qlgt
+--来自百度网盘超级会员 V4 的分享
 
 # 模拟器核心
 
@@ -57,4 +54,3 @@ https://www.mamedev.org/
 # 界面
 
 ![](./img/1.png)
-![](./img/2.png)
