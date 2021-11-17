@@ -44,7 +44,7 @@ function createBannerArea(areaDom, options) {
             img.style.height = "100%";
             img.style.display = "block";
             img.style.marginLeft = "0%";
-            img.style.cursor = "pointer";
+            // img.style.cursor = "pointer";
             imgArea.appendChild(img);
         }
     }
@@ -59,7 +59,7 @@ function createBannerArea(areaDom, options) {
             span.style.width = "12px"
             span.style.height = "12px"
             span.style.background = "lightgray"
-            span.style.cursor = "pointer";
+            // span.style.cursor = "pointer";
             span.style.borderRadius = "50%";
             span.style.margin = "0 5px";
             (function (index) {
