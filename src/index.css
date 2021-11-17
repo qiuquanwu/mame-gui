@@ -49,29 +49,31 @@ button{
 }
 .rom-li{
   height: 50px;
-  font-size: x-large;
+  font-size: large;
   color: white;
   text-decoration: none;
   list-style: none;
   text-align: center;
   line-height: 50px;
-  margin-top: 5px;
-  padding: 0 50px;
 }
 .rom-li:hover{
- background-color:#FF6666 ;
+ /* background-color:#FF6666 ; */
+ background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   /* outline: 5px solid #FFCC00;  */
   /* transform: scale(1.2); */
   border-radius: 5px;
+  font-size: x-large;
 }
 .select{
-  background-color:#FF6666 ;
+  /* background-color:#FF6666 ; */
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   /* outline: 5px solid #FFCC00;  */
   /* transform: scale(1.2); */
   border-radius: 5px;
+  font-size: x-large;
 }
 .exit{
-  background-color: cornflowerblue;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   padding: 10px;
   line-height: 50px;
   border: none;
@@ -79,8 +81,7 @@ button{
   margin-right: 10px;
 }
 .exit:hover{
-  opacity: 0.8;
-  outline: 5px solid #CC0033; 
+  outline: 5px solid #FFFFFF; 
 }
 .right::-webkit-scrollbar {
   /*滚动条整体样式*/
@@ -90,7 +91,7 @@ button{
   .right::-webkit-scrollbar-thumb {
   /*滚动条里面小方块*/
   border-radius   : 10px;
-  background-color: skyblue;
+  background-color: #0099CC;
   background-image: -webkit-linear-gradient(
       45deg,
       rgba(255, 255, 255, 0.2) 25%,
@@ -117,9 +118,11 @@ button{
     padding-left:100px;
     padding-right:100px;
     padding-top: 100px;
+    opacity: 0.8;
   }
   .photo img{
     width: 100%;
+    border-radius: 20px;
   }
 #info{
     color: white;

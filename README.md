@@ -12,8 +12,8 @@
 
 ## 2021 年 11 月 17 日 15:33:20 更新包下载
 
-链接：https://pan.baidu.com/s/16d1BDTivbls4qu6AobYM1A
-提取码：wz34
+链接：https://pan.baidu.com/s/1gx_aRehUgriRRHviaWBYPA
+提取码：70o6
 --来自百度网盘超级会员 V4 的分享
 
 ## 更新包使用方法
